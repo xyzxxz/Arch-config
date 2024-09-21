@@ -8,4 +8,4 @@ hyprland 是一个 wayland 合成器
 sudo pacman -S hyprland
 ```
 
-## 配置
+## ⚙️配置
