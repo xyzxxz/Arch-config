@@ -9,3 +9,29 @@ sudo pacman -S hyprland
 ```
 
 ## ⚙️配置
+
+### 自动启动应用
+
+### 样式
+
+dpi
+
+border
+
+margin
+
+blur
+
+shadow
+
+font
+
+### 窗口规则
+
+### 快捷键
+
+
+
+### 鼠标
+
+### 触摸板

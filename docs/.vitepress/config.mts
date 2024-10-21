@@ -9,7 +9,8 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: '配置', link: '/begin' }
+      { text: '配置', link: '/base/mirrorslist' },
+      { text: 'Emacs', link: '/app/emacs-config.md'}
     ],
 
     sidebar: [
@@ -39,7 +40,7 @@ export default defineConfig({
 	text: '安装软件',
 	items: [
 	  { text: '浏览器', link: '/app/browser' },
-	  { text: 'emacs', link: '/app/emacs' },
+	  { text: 'emacs', link: '/app/emacs-config.md' },
 	  { text: 'vscode', link: '/app/vscode' },
 	  { text: '终端工具', link: '/app/terminal-tools' },
 	  { text: '开发', link: '/app/coding' }

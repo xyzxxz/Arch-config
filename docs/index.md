@@ -3,16 +3,12 @@
 layout: home
 
 hero:
-  name: "Arch Configuration"
-  text: "config arch linux process"
-  tagline: My great project tagline
+  name: "Arch 配置"
+  text: "让arch更好用"
   actions:
     - theme: brand
       text: 开始
       link: /begin
-    - theme: alt
-      text: API Examples
-      link: /api-examples
 
 features:
   - title: Feature A

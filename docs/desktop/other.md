@@ -1,6 +1,12 @@
 # 其他
 
-## 壁纸 swww
+## 壁纸
+
+### swww
+
+### linux-wallpaperengine
+
+## 锁屏 hyprlock 
 
 ### 安装
 
