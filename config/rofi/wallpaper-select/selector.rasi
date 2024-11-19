@@ -1,0 +1,56 @@
+/*****----- Global Properties -----*****/
+* {
+    font:                        "Hack Nerd Font 18";
+    background:                  transparent;
+    selected:                    #DF5296;
+    urgent:                      #8E3596;
+}
+
+/*****----- Main Window -----*****/
+window {
+    location:                    center;
+    anchor:                      center;
+    fullscreen:                  false;
+    width:                       1800px;
+    border-radius:               2em;
+    children: [listview-split];
+}
+
+listview-split {
+    spacing:                     20px;
+    padding:                     20px;
+    background-color:            transparent;
+    orientation: horizontal;
+    children:                    [ "listview" ];
+}
+
+listview {
+    flow: horizontal;
+    columns:                     3;
+    lines:                       2;
+    cycle:                       true;
+    scrollbar:                   false;
+    fixed-height:                true;
+    fixed-columns:               true;
+    spacing:                     10px;
+    background-color:            transparent;
+}
+
+element {
+    orientation: vertical;
+    spacing:                     10px;
+    padding:                     9px;
+    border-radius:               1.2em;
+    background-color:            transparent;
+    cursor: pointer;
+    children: [element-icon];
+}
+element selected {
+    background-color:            @selected;
+}
+element-icon {
+    background-color:            transparent;
+    text-color:                  inherit;
+    size:                        15em;
+    cursor:                      inherit;
+}

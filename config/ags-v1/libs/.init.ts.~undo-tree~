@@ -1,0 +1,9 @@
+(undo-tree-save-format-version . 1)
+"e3be61f6ff22466a4c75533910a3911491750863"
+[nil nil nil nil (26414 48349 699358 342000) 0 nil]
+([nil nil ((322 . 324) (299 . 301) (247 . 248) (#(" " 0 1 (fontified t)) . -247) (undo-tree-id0 . -1) (undo-tree-id1 . -1) (#("/" 0 1 (syntax-table (7 . 47) fontified t)) . -248) (undo-tree-id2 . -1) (#("/" 0 1 (face tree-sitter-hl-face:comment fontified t)) . -249) (undo-tree-id3 . -1) 250 (265 . 266) (280 . 282) (#("/" 0 1 (face tree-sitter-hl-face:string.special syntax-table (7 . 47) fontified t)) . -281) (undo-tree-id4 . -1) 282 (281 . 282) (264 . 265) (248 . 250) (t 26413 59937 821870 35000)) nil (26414 48349 699354 761000) 0 nil])
+([nil nil ((#("/" 0 1 (face tree-sitter-hl-face:comment fontified t)) . 279) (undo-tree-id0 . -1) (undo-tree-id1 . -1) (t 26414 48349 701092 710000)) nil (26414 52377 150633 493000) 0 nil])
+([nil nil ((#("/" 0 1 (fontified t)) . 279)) nil (26414 52377 150614 354000) 0 nil])
+([nil nil ((#("/" 0 1 (face tree-sitter-hl-face:comment fontified t)) . 262)) nil (26414 52377 150613 338000) 0 nil])
+([nil current ((#("/" 0 1 (fontified t)) . 262)) nil (26414 52377 150608 624000) 0 nil])
+nil

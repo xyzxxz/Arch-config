@@ -1,0 +1,36 @@
+window#calendar .calendar {
+  @include floating-widget;
+  .calendar {
+    @include spacing;
+  }
+
+  .cal-header {
+    padding: $padding*0.4 $padding;
+    color: transparentize($fg, 0.5);
+
+    button {
+      background-color: transparent;
+    }
+  }
+  .day {
+    border-radius: $radius * 0.6;
+    padding: $padding * 0.4 $padding*0.8;
+    min-width: 2rem;
+
+    &:hover {
+      background-color: $fg;
+    }
+  }
+
+  .cal-foot {
+  }
+
+  .todo-item {
+    margin-right: $spacing;
+    padding: $padding;
+    margin-bottom: $spacing;
+    font-size: 1.2rem;
+    border-radius: $radius;
+    background-color: $fg;
+  }
+}

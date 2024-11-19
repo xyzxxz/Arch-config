@@ -1,0 +1,66 @@
+(undo-tree-save-format-version . 1)
+"1b23eb88d188bc40b89f44fe6f9d050072de092c"
+[nil nil nil nil (26414 53518 916855 812000) 0 nil]
+([nil nil ((#("
+    .launcher {
+        .colored {
+            color: transparentize($primary-bg, 0.2);
+        }
+
+        &:hover .colored {
+            color: $primary-bg;
+        }
+
+        &:active .colored,
+        &.active .colored {
+            color: $primary-fg;
+        }
+    }
+" 0 5 (fontified t) 5 14 (face css-selector fontified t) 14 15 (fontified t) 15 16 (face (rainbow-delimiters-depth-2-face) fontified t) 16 25 (fontified t) 25 33 (face css-selector fontified t) 33 34 (fontified t) 34 35 (face (rainbow-delimiters-depth-3-face) fontified t) 35 48 (fontified t) 48 53 (face css-property fontified t) 53 69 (fontified t) 69 70 (face (rainbow-delimiters-depth-4-face) fontified t) 70 81 (face font-lock-constant-face fontified t) 81 86 (fontified t) 86 87 (face (rainbow-delimiters-depth-4-face) fontified t) 87 97 (fontified t) 97 98 (face (rainbow-delimiters-depth-3-face) fontified t) 98 125 (fontified t) 125 126 (face (rainbow-delimiters-depth-3-face) fontified t) 126 139 (fontified t) 139 144 (face css-property fontified t) 144 146 (fontified t) 146 157 (face font-lock-constant-face fontified t) 157 167 (fontified t) 167 168 (face (rainbow-delimiters-depth-3-face) fontified t) 168 223 (fontified t) 223 224 (face (rainbow-delimiters-depth-3-face) fontified t) 224 237 (fontified t) 237 242 (face css-property fontified t) 242 244 (fontified t) 244 255 (face font-lock-constant-face fontified t) 255 265 (fontified t) 265 266 (face (rainbow-delimiters-depth-3-face) fontified t) 266 271 (fontified t) 271 272 (face (rainbow-delimiters-depth-2-face) fontified t) 272 273 (fontified t)) . 585) (undo-tree-id8 . -272) (undo-tree-id9 . -272) (undo-tree-id10 . -272) (undo-tree-id11 . -272) (t 26414 53407 284339 663000)) nil (26414 53518 916854 745000) 0 nil])
+([nil nil ((#("
+    .media label {
+        margin: 0 ($spacing * .5)
+    }
+
+    .taskbar .indicator.active {
+        background-color: $primary-bg;
+        border-radius: $radius;
+        min-height: 4pt;
+        min-width: 6pt;
+        margin: 2pt;
+    }
+
+    .powermenu.colored,
+    .recorder {
+        image {
+            color: transparentize($error-bg, 0.3);
+        }
+
+        &:hover image {
+            color: transparentize($error-bg, 0.15);
+        }
+
+        &:active image {
+            color: $primary-fg;
+        }
+    }
+
+" 0 5 (fontified t) 5 17 (face css-selector fontified t) 17 18 (fontified t) 18 19 (face (rainbow-delimiters-depth-2-face) fontified t) 19 28 (fontified t) 28 34 (face css-property fontified t) 34 38 (fontified t) 38 39 (face (rainbow-delimiters-depth-3-face) fontified t) 39 47 (face font-lock-constant-face fontified t) 47 52 (fontified t) 52 53 (face (rainbow-delimiters-depth-3-face) fontified t) 53 58 (fontified t) 58 59 (face (rainbow-delimiters-depth-2-face) fontified t) 59 65 (fontified t) 65 91 (face css-selector fontified t) 91 92 (fontified t) 92 93 (face (rainbow-delimiters-depth-2-face) fontified t) 93 102 (fontified t) 102 118 (face css-property fontified t) 118 120 (fontified t) 120 131 (face font-lock-constant-face fontified t) 131 141 (fontified t) 141 154 (face css-property fontified t) 154 156 (fontified t) 156 163 (face font-lock-constant-face fontified t) 163 173 (fontified t) 173 183 (face css-property fontified t) 183 198 (fontified t) 198 207 (face css-property fontified t) 207 222 (fontified t) 222 228 (face css-property fontified t) 228 239 (fontified t) 239 240 (face (rainbow-delimiters-depth-2-face) fontified t) 240 246 (fontified t) 246 279 (face css-selector fontified t) 279 280 (fontified t) 280 281 (face (rainbow-delimiters-depth-2-face) fontified t) 281 290 (fontified t) 290 295 (face css-selector fontified t) 295 296 (fontified t) 296 297 (face (rainbow-delimiters-depth-3-face) fontified t) 297 310 (fontified t) 310 315 (face css-property fontified t) 315 331 (fontified t) 331 332 (face (rainbow-delimiters-depth-4-face) fontified t) 332 341 (face font-lock-constant-face fontified t) 341 346 (fontified t) 346 347 (face (rainbow-delimiters-depth-4-face) fontified t) 347 357 (fontified t) 357 358 (face (rainbow-delimiters-depth-3-face) fontified t) 358 382 (fontified t) 382 383 (face (rainbow-delimiters-depth-3-face) fontified t) 383 393 (fontified t) 393 396 (fontified t) 396 401 (fontified t face css-property) 401 417 (fontified t) 417 418 (fontified t face (rainbow-delimiters-depth-4-face)) 418 427 (fontified t face font-lock-constant-face) 427 433 (fontified t) 433 434 (fontified t face (rainbow-delimiters-depth-4-face)) 434 436 (fontified t) 436 444 (fontified t) 444 445 (face (rainbow-delimiters-depth-3-face) fontified t) 445 470 (fontified t) 470 471 (face (rainbow-delimiters-depth-3-face) fontified t) 471 484 (fontified t) 484 489 (face css-property fontified t) 489 491 (fontified t) 491 502 (face font-lock-constant-face fontified t) 502 512 (fontified t) 512 513 (face (rainbow-delimiters-depth-3-face) fontified t) 513 518 (fontified t) 518 519 (face (rainbow-delimiters-depth-2-face) fontified t) 519 521 (fontified t)) . 1693) (undo-tree-id3 . -520) (undo-tree-id4 . -520) (undo-tree-id5 . -520) (undo-tree-id6 . -520) (undo-tree-id7 . -520) 2213) nil (26414 53518 916851 322000) 0 nil])
+([nil current ((#("    .quicksettings>box>box {
+        @include spacing($spacing: if($bar-spacing==0, $padding / 2, $bar-spacing));
+    }
+
+    .quicksettings:not(.active):not(:active) {
+        .bluetooth {
+            color: $primary-bg;
+
+            label {
+                font-size: $font-size * .7;
+                color: $fg;
+                text-shadow: $text-shadow;
+            }
+        }
+    }
+
+" 0 4 (fontified t) 4 26 (face css-selector fontified t) 26 27 (fontified t) 27 28 (face (rainbow-delimiters-depth-2-face) fontified t) 28 29 (fontified t) 29 37 (fontified t) 37 45 (face font-lock-builtin-face fontified t) 45 53 (fontified t) 53 54 (face (rainbow-delimiters-depth-3-face) fontified t) 54 62 (face font-lock-constant-face fontified t) 62 66 (fontified t) 66 67 (face (rainbow-delimiters-depth-4-face) fontified t) 67 79 (face font-lock-constant-face fontified t) 79 84 (fontified t) 84 92 (face font-lock-constant-face fontified t) 92 98 (fontified t) 98 110 (face font-lock-constant-face fontified t) 110 111 (face (rainbow-delimiters-depth-4-face) fontified t) 111 112 (face (rainbow-delimiters-depth-3-face) fontified t) 112 118 (fontified t) 118 119 (face (rainbow-delimiters-depth-2-face) fontified t) 119 143 (fontified t) 143 144 (face (rainbow-delimiters-depth-2-face) fontified t) 144 151 (fontified t) 151 152 (face (rainbow-delimiters-depth-2-face) fontified t) 152 156 (fontified t) 156 157 (face (rainbow-delimiters-depth-2-face) fontified t) 157 164 (fontified t) 164 165 (face (rainbow-delimiters-depth-2-face) fontified t) 165 166 (fontified t) 166 167 (face (rainbow-delimiters-depth-2-face) fontified t) 167 176 (fontified t) 176 186 (face css-selector fontified t) 186 187 (fontified t) 187 188 (face (rainbow-delimiters-depth-3-face) fontified t) 188 201 (fontified t) 201 206 (face css-property fontified t) 206 208 (fontified t) 208 219 (face font-lock-constant-face fontified t) 219 234 (fontified t) 234 239 (face css-selector fontified t) 239 240 (fontified t) 240 241 (face (rainbow-delimiters-depth-4-face) fontified t) 241 258 (fontified t) 258 267 (face css-property fontified t) 267 269 (fontified t) 269 279 (face font-lock-constant-face fontified t) 279 302 (fontified t) 302 307 (face css-property fontified t) 307 309 (fontified t) 309 312 (face font-lock-constant-face fontified t) 312 330 (fontified t) 330 341 (face css-property fontified t) 341 343 (fontified t) 343 355 (face font-lock-constant-face fontified t) 355 369 (fontified t) 369 370 (face (rainbow-delimiters-depth-4-face) fontified t) 370 379 (fontified t) 379 380 (face (rainbow-delimiters-depth-3-face) fontified t) 380 385 (fontified t) 385 386 (face (rainbow-delimiters-depth-2-face) fontified t) 386 388 (fontified t)) . 1693) (undo-tree-id0 . -387) (undo-tree-id1 . -387) (undo-tree-id2 . -387)) nil (26414 53518 916843 111000) 0 nil])
+nil
